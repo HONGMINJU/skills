@@ -2,6 +2,8 @@
 
 명령어를 모두 외울 필요는 없다. 원하는 것을 한국어로 요청하면 된다. 아래 문장은 자연어 사용 예시이며 Codex에 새 슬래시 명령을 등록하는 기능이 아니다.
 
+IDE에서 프로젝트 안에 `skills` 폴더까지 clone했다면 [README의 빠른 시작](README.md)을 먼저 본다. 첫 메시지로 문제정의를 확인하고, 방향이 맞으면 다음 메시지로 개발·테스트를 이어간다. 바깥 `skills`는 저장소 폴더, 안쪽 `skills`는 스킬 모음이므로 프로젝트 기준 경로는 `skills/skills/fde-discover/SKILL.md`다.
+
 ## 먼저 구별할 세 가지
 
 - 하네스: 작업 순서·기록·검증을 일관되게 연결하는 운영 방식.
@@ -68,13 +70,13 @@ fde-data-audit가 [반도체 체크리스트](skills/fde-data-audit/references/s
 
 ## 스킬이 자동으로 보이지 않을 때
 
-허용된 작업공간에 실제 파일이 있는지 확인하고, 다음처럼 정확한 경로를 읽도록 요청한다. clone한 폴더명이 다르면 실제 경로로 바꾼다.
+허용된 작업공간에 실제 파일이 있는지 확인하고, 다음처럼 정확한 경로를 읽도록 요청한다. 아래는 과제 프로젝트 폴더 안에 `skills`로 clone한 경우다. 현재 작업 위치나 clone한 폴더명이 다르면 실제 경로로 바꾼다.
 
-> fde-kit/skills/fde-status/SKILL.md를 읽고 지금 진행 상황을 알려줘. 조회만 하고 파일은 바꾸지 마.
+> 프로젝트 기준 skills/skills/fde-status/SKILL.md를 읽고 지금 진행 상황을 알려줘. 조회만 하고 파일은 바꾸지 마.
 
-> fde-kit/skills/fde-guide/SKILL.md를 읽고 내가 지금 해야 할 행동 하나를 안내해줘.
+> 프로젝트 기준 skills/skills/fde-guide/SKILL.md를 읽고 내가 지금 해야 할 행동 하나를 안내해줘.
 
-> fde-kit/skills/fde-discover/SKILL.md를 읽고 실제 과제의 문제정의와 필요한 질문부터 정리해줘.
+> 프로젝트 기준 skills/skills/fde-discover/SKILL.md를 읽고 실제 과제의 문제정의와 필요한 질문부터 정리해줘.
 
 스킬이 실제 등록·발견된 환경에서는 `$fde-status`, `$fde-guide`, `$fde-discover`처럼 스킬 이름으로 명시적으로 요청할 수 있다. 파일을 읽은 사실만으로 등록됐다고 말하지 않는다. 안내만 요청했는데 설치·Codex 재시작·업데이트를 자동 수행하지 않는다. 호출 방식 참고: [공식 스킬 문서](https://learn.chatgpt.com/docs/build-skills).
 
