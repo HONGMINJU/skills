@@ -1,0 +1,4 @@
+interface:
+  display_name: "FDE 테스트·검증"
+  short_description: "독립 기대값으로 정상과 실패 경로를 검사하고 수정 후 같은 사례 재검증"
+  default_prompt: "$fde-verify 현재 구현을 요구사항과 독립 기대값으로 검사하고, 실제 결과·실패 원인·미검증 범위를 기록해줘."

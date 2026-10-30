@@ -1,0 +1,4 @@
+interface:
+  display_name: "FDE 진행 상태"
+  short_description: "기록과 근거로 현재 단계, 완료 범위와 다음 행동을 짧게 안내"
+  default_prompt: "$fde-status 지금 어느 단계인지, 끝난 일과 막힌 점, 다음 행동 하나를 알려줘. 조회만 하고 파일은 바꾸지 마."

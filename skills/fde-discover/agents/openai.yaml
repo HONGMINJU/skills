@@ -1,0 +1,4 @@
+interface:
+  display_name: "FDE 문제정의"
+  short_description: "현업 문제를 요구사항, 성공 기준과 중요한 확인 질문으로 정리"
+  default_prompt: "$fde-discover 과제와 제공 자료에서 문제, 필수 요구, 성공 기준을 정리하고 중요한 모호함만 물어봐줘."

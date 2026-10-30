@@ -1,0 +1,4 @@
+interface:
+  display_name: "FDE 설명·인계"
+  short_description: "실제 구현·선택·검증 근거를 설명하고, 요청 시 한 질문씩 설명 연습"
+  default_prompt: "$fde-handoff 실제 구현 흐름과 선택 이유를 쉽게 설명하고, 실행 방법·검증 근거·남은 한계를 정리해줘."

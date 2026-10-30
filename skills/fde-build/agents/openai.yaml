@@ -1,0 +1,4 @@
+interface:
+  display_name: "FDE 개발·통합"
+  short_description: "실제 입력부터 결과까지 작은 단위로 구현하고 실행 검증과 통합"
+  default_prompt: "$fde-build 합의한 첫 실행 흐름부터 구현하고, 단위별 검증 결과와 남은 위험을 기록하며 진행해줘."

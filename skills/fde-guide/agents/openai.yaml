@@ -1,0 +1,4 @@
+interface:
+  display_name: "FDE 스킬 도우미"
+  short_description: "처음 쓰는 사용자를 위해 필요한 기능과 다음 요청 문장을 안내"
+  default_prompt: "$fde-guide 하네스를 처음 써. 지금 필요한 기능 하나와 입력할 문장, 내가 결정할 것을 쉽게 안내해줘."
