@@ -225,17 +225,3 @@ git clone https://github.com/HONGMINJU/skills.git
 - 세션 전환·중단 전, 또는 제출 준비를 시작할 때.
 
 매 도구 호출마다 저장하거나 대화 전문을 복사하지 않는다. 갱신은 변경한 사실과 근거 중심으로 짧게 한다. 예기치 않은 중단에 대비해 큰 작업을 끝낼 때 STATE를 갱신한다.
-
-## 선별 참고
-
-- [cofa-triage](https://github.com/ripplelover/cofa-ready-kit/blob/main/skills/cofa-triage/SKILL.md): 요구·출처·확인 방법 연결.
-- [data-audit](https://github.com/ColdTbrew/cofa-skills/blob/main/skills/data-audit/SKILL.md): 데이터 의미·품질 점검.
-- [execute](https://github.com/bladem0117/cofa-kit/blob/main/.agents/skills/execute/SKILL.md): 파일 담당을 분리한 구현과 통합.
-- [verify](https://github.com/hekate-louise/codex-harness/blob/main/skills/verify/SKILL.md): 실제 실행과 독립 검산.
-- [explain](https://github.com/hekate-louise/codex-harness/blob/main/skills/explain/SKILL.md): 실제 코드·결정·검증에 근거한 설명.
-- [cofa-explain](https://github.com/ripplelover/cofa-ready-kit/blob/main/skills/cofa-explain/SKILL.md): 사용자 답변을 먼저 듣고 근거와 대조하는 설명 연습.
-- [자동 검증·UI 확인](https://github.com/leey00nsu/cofa-hackathon-kit/blob/5418133b37cd492e3850f1339298730ffaa705ad/docs/AUTOMATED_TESTING.md): 자동 검사와 참가자 화면 확인을 나눠 같은 요구·증거에 연결하는 방식.
-- [cofa-optimize](https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/4e2300ab02f91b50938aa7c0bf747a87a2249e44/skills/cofa-optimize/SKILL.md)와 [cofa-opt-service](https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/4e2300ab02f91b50938aa7c0bf747a87a2249e44/skills/cofa-opt-service/SKILL.md): 구조별 방법 선택·독립 검산과 실제 계산 서비스의 결과·상태 처리.
-- [원리 브리핑](https://github.com/MunChanCHOI1/qualifier-skill/blob/55756835a8db65bf8348d1dab389824c4071dd84/skills/skhynix-qualifier/references/requirements.md): 개발 중 입력·처리·결과와 이유·한계를 짧게 설명하는 방식. 기능별 재승인 절차는 채택하지 않는다.
-
-위 저장소의 설치기·모델 설정·승인 정책을 그대로 채택하지 않는다. 필요한 개념만 기존 지침에 맞게 정리하며 외부 스킬 원문·코드 묶음을 포함하지 않는다. 참고 내용은 공식 규정보다 우선하지 않는다.
