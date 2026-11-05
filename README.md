@@ -86,10 +86,10 @@ clone은 파일 반입이지 스킬 자동 등록이 아니다. 핵심 작업 �
 | 스킬 | 언제 쓰는가 | 연결 기록 |
 | --- | --- | --- |
 | [fde-discover](skills/fde-discover/SKILL.md) | 문제·성공 기준, 담당자 질문·답변을 요구와 검증에 연결 | MISSION, QNA, DECISIONS, STATE |
-| [fde-data-audit](skills/fde-data-audit/SKILL.md) | 데이터 의미·품질·계산 계약, 조건부 반도체 점검 | DATA, EVIDENCE, QNA |
-| [fde-design](skills/fde-design/SKILL.md) | 해법 후보 비교·선택 근거, 최소 흐름·계약·작업 분해 | PLAN, DECISIONS, STATE |
-| [fde-build](skills/fde-build/SKILL.md) | 작은 단위 구현·통합, 계산 결과·상태 연결과 짧은 원리 설명 | 실제 코드, PLAN, EVIDENCE |
-| [fde-verify](skills/fde-verify/SKILL.md) | 독립 기준으로 제약·개선 효과 검증, 화면 확인표·실패 재검사 | 테스트·로그, EVIDENCE |
+| [fde-data-audit](skills/fde-data-audit/SKILL.md) | 데이터 의미·품질·계산 계약 점검 | DATA, EVIDENCE, QNA |
+| [fde-design](skills/fde-design/SKILL.md) | 해법 후보 비교·선택 근거, 최소 흐름·계약·작업 분해 | PLAN, DECISIONS, QNA, STATE |
+| [fde-build](skills/fde-build/SKILL.md) | 작은 단위 구현·통합, 계산 결과·상태 연결과 짧은 원리 설명 | 실제 코드, PLAN, EVIDENCE, QNA |
+| [fde-verify](skills/fde-verify/SKILL.md) | 독립 기준으로 제약·개선 효과 검증, 화면 확인표·실패 재검사 | 테스트·로그, EVIDENCE, QNA |
 | [fde-acceptance](skills/fde-acceptance/SKILL.md) | 대표 업무의 판단·행동과 실제 사용자 확인 | EVIDENCE, MISSION, QNA, PLAN |
 | [fde-handoff](skills/fde-handoff/SKILL.md) | 코드 설명·선택형 설명 연습·실행 인계·제출 준비 | HANDOFF와 기존 근거 |
 
@@ -153,9 +153,6 @@ AI 사용이 허용된 과제 단계에서 이렇게 요청할 수 있다.
 ## 기존 스킬 안의 선택 기능
 
 - **설명 연습:** fde-handoff에서 사용자가 직접 설명하는 연습을 요청하면 실제 근거로 질문 하나 → 사용자 답변 → 피드백 → 재설명을 진행한다. 일반 설명 요청에는 퀴즈를 강제하지 않는다. 필요한 연습 상태만 작업 사본의 HANDOFF에 남기며, 제출물 확정 후 대기·평가 단계에서는 사용하지 않는다.
-- **반도체 데이터 점검:** fde-data-audit는 실제 반도체 검사·공정 데이터이거나 해당 점검을 요청한 경우에만 [전용 체크리스트](skills/fde-data-audit/references/semiconductor-checklist.md)를 읽는다. 결과는 기존 DATA·MISSION·QNA·DECISIONS·EVIDENCE에 연결한다. 회사 이름만으로 적용하지 않는다.
-
-두 기능은 기존 9개 스킬의 보완이며 새 스킬·에이전트·필수 단계가 아니다. 외부 `semi yield`·`semi spc` 계산 도구를 포함하거나 설치하지 않는다.
 
 ## 단계별 산출물
 
@@ -237,7 +234,6 @@ git clone https://github.com/HONGMINJU/skills.git
 - [verify](https://github.com/hekate-louise/codex-harness/blob/main/skills/verify/SKILL.md): 실제 실행과 독립 검산.
 - [explain](https://github.com/hekate-louise/codex-harness/blob/main/skills/explain/SKILL.md): 실제 코드·결정·검증에 근거한 설명.
 - [cofa-explain](https://github.com/ripplelover/cofa-ready-kit/blob/main/skills/cofa-explain/SKILL.md): 사용자 답변을 먼저 듣고 근거와 대조하는 설명 연습.
-- [cofa-semiconductor](https://github.com/ripplelover/cofa-ready-kit/blob/main/skills/cofa-semiconductor/SKILL.md): 검사 단위·분모·재검·공정 조건을 확인하는 조건부 도메인 점검.
 - [자동 검증·UI 확인](https://github.com/leey00nsu/cofa-hackathon-kit/blob/5418133b37cd492e3850f1339298730ffaa705ad/docs/AUTOMATED_TESTING.md): 자동 검사와 참가자 화면 확인을 나눠 같은 요구·증거에 연결하는 방식.
 - [cofa-optimize](https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/4e2300ab02f91b50938aa7c0bf747a87a2249e44/skills/cofa-optimize/SKILL.md)와 [cofa-opt-service](https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/4e2300ab02f91b50938aa7c0bf747a87a2249e44/skills/cofa-opt-service/SKILL.md): 구조별 방법 선택·독립 검산과 실제 계산 서비스의 결과·상태 처리.
 - [원리 브리핑](https://github.com/MunChanCHOI1/qualifier-skill/blob/55756835a8db65bf8348d1dab389824c4071dd84/skills/skhynix-qualifier/references/requirements.md): 개발 중 입력·처리·결과와 이유·한계를 짧게 설명하는 방식. 기능별 재승인 절차는 채택하지 않는다.

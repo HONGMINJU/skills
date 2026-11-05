@@ -1,4 +1,4 @@
 interface:
   display_name: "FDE 데이터 점검"
-  short_description: "데이터 의미·품질·검산을 점검하고, 관련 과제에 반도체 체크리스트 적용"
+  short_description: "데이터 의미·품질·계산 계약과 독립 검산을 점검하고 모호함 정리"
   default_prompt: "$fde-data-audit 제공 데이터의 의미와 품질을 확인하고, 계산을 바꿀 모호함과 재현 가능한 점검 결과를 정리해줘."
